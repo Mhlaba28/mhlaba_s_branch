@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Schedu</string>
+    <string name="login_in">LOGIN</string>
+    <string name="email_address">Email address</string>
+    <string name="purple_background_image">Purple Background Image</string>
+    <string name="schedu_logo">Schedu Logo</string>
+    <string name="chedu">chedu</string>
+    <string name="hours_required">Hours Required</string>
+    <string name="end_date">End Date</string>
+    <string name="start_date">Start Date</string>
+    <string name="project_name">Project Name</string>
+    <string name="category_name">Category Name</string>
+    <string name="add_category_photo">Add Category Photo</string>
+    <string name="create">Create</string>
+    <string name="start_time">Start Time</string>
+    <string name="category">Category</string>
+    <string name="create_category">Create Category</string>
+    <string name="work_tasks">Work Tasks</string>
+    <string name="personal_tasks">Personal Tasks</string>
+    <string name="studying">Studying</string>
+
+</resources>

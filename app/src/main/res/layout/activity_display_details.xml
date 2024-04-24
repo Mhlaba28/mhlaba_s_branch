@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayDetails"
+    android:background="@color/app_background_black">
+    <include layout="@layout/activity_base"/>
+
+    <TextView
+        android:id="@+id/textViewCategory"
+        android:layout_width="238dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="132dp"
+        android:contentDescription="Information Button"
+        android:gravity="center"
+        android:text="IT"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewInfoIcon"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="184dp"
+        android:contentDescription="View Information Button"
+        android:src="@drawable/informationicon1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonFilter"
+        android:layout_width="159dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="28dp"
+        android:background="#d9d9d9"
+        android:text="Filter"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875"
+        app:layout_constraintVertical_chainStyle="spread_inside"
+        app:layout_constraintWidth_default="wrap" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonCalculateHours"
+        android:layout_width="159dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="24dp"
+        android:background="#d9d9d9"
+        android:text="Calculate Hours"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875"
+        app:layout_constraintWidth_default="wrap" />
+
+    <TableLayout
+        android:id="@+id/tblViewProjects"
+        android:layout_width="345dp"
+        android:layout_height="244dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="232dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+    <ImageButton
+        android:id="@+id/btnReturn"
+        android:layout_width="67dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/purple_background"
+        android:contentDescription="Return Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_return_arrow" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
